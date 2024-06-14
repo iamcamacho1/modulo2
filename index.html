@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        color: white;
+        padding: 50px;
+    }
+    .contenedor{
+        padding-right: 50px;
+        padding-left: 20px;
+        padding-top: 80px;
+        padding-bottom: 150px;
+        float: left;
+        width: 20%;
+        background-color: #7f8d8d64 ;
+        border-radius: 25px;
+        border-color: transparent;
+        box-shadow: 0px 0px 100px #7f8d8d64;
+    }
+    input{
+        margin-top: 15px;
+        height: 25px;
+        width: 90%;
+        background-color: #646A6B;
+    }
+    button{
+        font-style: italic;
+        color: white;
+        width: 150px;
+        height: 25px;
+        background-color: #6CCCD2;
+    }
+    h1{
+        margin-top: 10px;
+        font-size: 60px;
+        color: #6CCCD2;
+    }
+    a{
+        margin-top: 15px;
+        font-style: oblique;
+        color: #6CCCD2;
+    }
+ 
+    label{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .bolita{
+        position:fixed ;
+        opacity: 0.5;
+        background: rgb(60,61,64);
+        background: linear-gradient(255deg, rgba(60,61,64,1) 0%, rgba(105,195,200,1) 69%);
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        z-index: -15px;
+    }
+    p {
+        margin-top: 200px;
+        margin-left: 600px;
+        font-size: 30px;
+    }
+</style>
+ 
+<body>
+    <h1><img src="https://cdn-icons-png.flaticon.com/512/1670/1670440.png" width="50" height="50" />MyGIM</h1>
+   
+   
+    <div>
+        <div class="contenedor">
+            <label for="">Usuario</label><br>
+            <input type="text" name="" id=""><br><br>
+            <label for="">Contraseña</label><br>
+            <input type="text" name="" id=""><br><br><br>
+            <center>
+                <button>Iniciar sesión</button><br><br>
+                <a href="./pages/recuperar_contrasena.html">Recuperar contraseña</a><br>
+                <a href="">Crear usuario</a>
+            </center>
+        </div>
+       
+    </div>
+ 
+    <div class="bolita" style="transform: translateX(1000px) translateY(300px) !important;"></div>
+    <div class="bolita" style="transform: translateX(400px) translateY(-100px) !important;"></div>
+    <p>
+        Esta página está diseñada para almacenar, procesar y analizar los datos obtenidos en las campañas de monitoreos de piezómetros instalados en obras
+    </p>
+ 
+</body>
+</html>
