@@ -1,47 +1,73 @@
-body{
+body {
+    background-image: url(https://static.videezy.com/system/resources/thumbnails/000/046/251/original/scene00121.JPG);
     background-color: black;
     color: white;
-    padding: 50px;
-}
-.contenedor{
-    margin-right: 10%;
-    padding-right: 50px;
-    padding-left: 35px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    float: right;
-    width: 50%;
-    border-color: transparent;
-    
-}
-p{
-    font-size: 20px;
+    background-size: 100%;
+
 }
 
-button{
-    margin-left: 20px;
-    font-size: 15px;
-    color: white;
-    width: 150px;
-    height: 30px;
-    background-color: #34a0d2;
+.principal {
+    margin-top: 10px;
+    margin-left: 7%;
 }
-h1{
+ 
+.contacto {
+    margin-top: 2%;
+    text-align: center;
+    width: 22%;
+    margin-left: 7%;
+}
+
+.contenedor {
     margin-top: -20px;
-    font-size: 50px;
-    text-decoration: underline white 2px;
+    margin-right: 7%;
+    padding-right: 10px;
+    padding-left: 35px;
+    ;
+    padding-bottom: 80px;
+    float: right;
+    float:inline-end;
+    width: 52%;
+    border-color: transparent;
+    text-align: right;
 }
-h2{
+
+
+p {
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+button {
+    font-weight: 700;
+    float: right;
+    margin-right: 35%;
+    font-size: 20px;
+    color: black;
+    width: 250px;
+    height: 40px;
+    background-color: #6CCCD2;
+}
+
+h1 {
+
+    font-size: 50px;
+    text-align: center;
+    color: #6CCCD2;
+
+}
+
+h2 {
     margin-top: -10px;
     margin-left: 20px;
 }
-.perfil{
+
+.perfil {
     border-radius: 50px;
 }
-a{
+
+a {
     font-size: 20px;
     font-style: oblique;
     color: #6CCCD2;
 }
-
-
